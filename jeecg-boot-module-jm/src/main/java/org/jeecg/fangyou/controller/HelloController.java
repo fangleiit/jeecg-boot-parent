@@ -25,7 +25,7 @@ public class HelloController {
     @GetMapping(value="/hello")
     public Result<String> hello(){
         Result<String> result = new Result<String>();
-        result.setResult("hello word!这是我的第一个测试项目前后端分离！");
+        result.setResult("hello word!这是我的第一个测试项目前后端分离！测试git代码修改");
         result.setSuccess(true);
         return result;
     }
