@@ -1,0 +1,7 @@
+/target/
+/.idea/
+*.iml
+# Project exclude paths
+/jeecg-boot-base-common/target/
+/jeecg-boot-module-jm/target/
+/jeecg-boot-module-system/target/
