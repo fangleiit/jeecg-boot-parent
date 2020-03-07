@@ -35,11 +35,12 @@
 			<groupId>org.jeecgframework.boot</groupId>
 			<artifactId>jeecg-boot-base-common</artifactId>
 		</dependency>
-		<dependency>
+		<!--依赖-->
+		<!--<dependency>
 			<groupId>org.jeecgframework.boot</groupId>
 			<artifactId>jeecg-boot-module-jm</artifactId>
 			<version>2.1.4</version>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 	
 	<build>
