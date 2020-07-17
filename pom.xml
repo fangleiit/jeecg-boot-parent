@@ -50,7 +50,7 @@
 			</snapshots>
         </repository>
 	</repositories>
-	
+
     <properties>
         <jeecgboot.common.version>2.1.4</jeecgboot.common.version>
         <java.version>1.8</java.version>
@@ -208,11 +208,11 @@
             </exclusions>
         </dependency>
 
-		<dependency>
+		<!--<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-re</artifactId>
 			<version>2.1.4</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
@@ -258,7 +258,6 @@
             <version>1.5.22</version>
         </dependency>
 		
-		
 		<!-- Redis -->
 		<dependency>
 			 <groupId>org.springframework.boot</groupId>
@@ -268,7 +267,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
         </dependency>
-        
 		<!-- 代码生成器 -->
 		<!-- 如果下载失败，看这个链接http://jeecg-boot.mydoc.io/?t=345672 -->
 		<dependency>
@@ -276,12 +274,11 @@
 			<artifactId>codegenerate</artifactId>
 			<version>1.1.0</version>
 		</dependency>
-		
         <!-- AutoPoi Excel工具类-->
 		<dependency>
 			<groupId>org.jeecgframework</groupId>
 			<artifactId>autopoi-web</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>commons-codec</groupId>
